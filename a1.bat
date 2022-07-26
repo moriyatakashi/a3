@@ -1,2 +1,1 @@
-docker pull debian
-docker run -it -p82:8080 -vc:/root:/root --name case3 debian
+docker run -it -p82:8080 -vc:/root:/root --name a3 debian /root/a3/a1.sh
